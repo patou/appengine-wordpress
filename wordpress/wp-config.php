@@ -85,7 +85,7 @@ define('WP_DEBUG', false);
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
-
+define('WP_CACHE', true);
 $batcache = [
 	'seconds' => 0,
 	'max-age' => 60 * 30
